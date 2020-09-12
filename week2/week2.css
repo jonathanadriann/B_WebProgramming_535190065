@@ -1,0 +1,38 @@
+body {
+    background-color: lavender;
+}
+
+h1{
+    color: green;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 10pt;
+}
+
+h2{
+    color: rebeccapurple; /* Memberikan warna */
+    font-family: Arial, Helvetica, sans-serif
+}
+
+/* class selector */
+.jonathan {
+    color: yellow;
+}
+
+.green {
+    color: green;
+}
+
+.blue {
+    color: blue;
+}
+
+/* id selector */
+#foo {
+    color:yellowgreen;
+    border: 1px solid black;
+}
+
+div > p {
+    color: white;
+    background-color: black;
+}
